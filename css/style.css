@@ -1,0 +1,69 @@
+/*Resume*/
+nav #Menu{
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+}
+/*Circle to be shown*/
+#circle {
+    background: #f00;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:2px solid #EEE;
+    float-wrap: wrap;
+    float: right;
+}
+
+/*
+All text is centered
+*/
+h1,h2,h3,h4,h5,h6,p,ul,li {
+    text-align: center;
+}
+/*Centers images*/
+img {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+nav #Menulist {
+    font-family: 'Josefin Sans', sans-serif;
+    list-style-type: none;
+    margin: 20px;
+    padding: .5px;
+    overflow: hidden;
+    background-color: #FFE230;
+    text-align: center;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+}
+.list {
+     float: left;
+     margin: 5%;
+ }
+#Menulist a {
+    display: block;
+    color: steelblue;
+    text-align: center;
+    padding: .50%;
+    width: max-content;
+    text-decoration: none;
+}
+.list a:hover {
+    font-size: large;
+    text-: #FF466D;
+}
+body {
+    background-image:
+            linear-gradient(to left top, #FF512F, #F09819);
+    color: #16222a;
+    font-family: 'Josefin Sans', sans-serif
+    text-align: center;
+
+}
+
+/*Photography*/
+
+
+/*Pcrepair*/
