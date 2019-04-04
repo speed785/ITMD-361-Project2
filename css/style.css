@@ -2,19 +2,29 @@
 nav #Menu{
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
-    float: left;
 }
 /*Circle to be shown*/
 #circle {
-    background: #f00;
-    width: 200px;
-    height: 200px;
+    background: url("https://www.pictame.com/media/1493008547142550886_263048806");
+    background-size: contain;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
+    box-shadow: 0 0 10px#000;
     border:2px solid #EEE;
-    float-wrap: wrap;
-    float: right;
+    float: contour;
 }
 
+/*Circle being Responsive*/
+#circle:after {
+    content:"";
+    padding-bottom: 100%;
+    display:block;
+}
+
+#me{
+    display: none;
+}
 /*
 All text is centered
 */
@@ -24,9 +34,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 /*Centers images*/
 img {
     display: block;
-    float: left;
     width: 50%;
 }
+
 
 nav #Menulist {
     font-family: 'Josefin Sans', sans-serif;
@@ -38,9 +48,9 @@ nav #Menulist {
     text-align: center;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
 }
-.list {
-     float: left;
-     margin: 5%;
+.list a ul li{
+     text-align: center;
+     margin: 1%;
  }
 #Menulist a {
     display: block;
