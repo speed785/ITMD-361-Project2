@@ -1,64 +1,87 @@
-/*Resume*/
+/*Nav*/
 nav #Menu{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Josefin Sans', sans-serif;
-}
-/*Circle to be shown*/
-#circle {
-    background: url("https://www.pictame.com/media/1493008547142550886_263048806");
-    background-size: contain;
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    box-shadow: 0 0 10px#000;
-    border:2px solid #EEE;
-    float: contour;
-}
-
-/*Circle being Responsive*/
-#circle:after {
-    content:"";
-    padding-bottom: 100%;
-    display:block;
-}
-
-#me{
-    display: none;
-}
-/*
-All text is centered
-*/
-h1,h2,h3,h4,h5,h6,p,ul,li {
     text-align: center;
+}
+
+/*
+All text is centered except h2
+*/
+h3,p,li {
+    display: block;
+    padding: .50%;
+    width: auto%;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*no underline and moved header h2*/
+h2,u {
+    text-decoration: none;
+    margin-left: 5%;
+    text-decoration: coral;
+    font-size: larger;
 }
 /*Centers images*/
 img {
+    margin:auto;
     display: block;
     width: 50%;
+    border-radius: 100%;
+    background-size: contain;
+    box-shadow: 0 0 10px#000;
+    border:5px solid #FFE230;
+    float: contour;
+    text-align: center;
+
 }
 
+/*Youtube video centered*/
+iframe {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 50%;
+    float-wrap: wrap;
+    text-align: center;
+}
 
+/*Removes underline*/
+.list,
+a {
+    text-decoration: none;
+    position: static;
+    margin:auto;
+}
+/*Nav yellow box*/
 nav #Menulist {
     font-family: 'Josefin Sans', sans-serif;
-    list-style-type: none;
-    margin: 20px;
-    padding: .5px;
-    overflow: hidden;
+    float: bottom;
+    width: 50%;
     background-color: #FFE230;
-    text-align: center;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+    position: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    overflow: hidden;
+    border-radius: 30px;
+
 }
-.list a ul li{
-     text-align: center;
-     margin: 1%;
- }
+
 #Menulist a {
     display: block;
-    color: steelblue;
-    text-align: center;
+    color: mediumpurple;
     padding: .50%;
     width: max-content;
-    text-decoration: none;
+    height: max-content;
 }
 .list a:hover {
     font-size: large;
@@ -69,11 +92,5 @@ body {
             linear-gradient(to left top, #FF512F, #F09819);
     color: #16222a;
     font-family: 'Josefin Sans', sans-serif
-    text-align: center;
 
 }
-
-/*Photography*/
-
-
-/*Pcrepair*/
