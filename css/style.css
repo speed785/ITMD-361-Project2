@@ -22,7 +22,6 @@ h1, h3,p,li {
 /*no underline and moved header h2*/
 h2 {
     text-decoration: none;
-
     margin-left: 5%;
     text-decoration: coral;
     font-size: larger;
