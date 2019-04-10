@@ -9,10 +9,9 @@ nav #Menu{
 /*
 All text is centered except h2
 */
-h3,p,li {
+h1, h3,p,li {
     display: block;
     padding: .50%;
-    width: auto%;
     text-align: center;
     list-style-type: none;
     text-decoration: none;
