@@ -1,5 +1,5 @@
-# ITMD-361-Project1
+# ITMD-361-Project2
 
-3 pages,
-1 resume,
-other 2 are your choice.
+Forked from ITMD-361-Project 1
+
+Live Link : https://speed785.github.io/ITMD-361-Project2/
